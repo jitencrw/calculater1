@@ -1,0 +1,45 @@
+#border {
+  border-style: groove;
+  font-size: 0px;
+
+}
+
+.orange-button {
+  width: 10%;
+  background-color: orange;
+  transition-duration: 0.4s;
+  border: none;
+  font-size: 40px;
+  padding: 40px 40px;
+  align-self: auto;
+}
+.orange-button:hover {
+background-color: whitesmoke;
+  color: black;
+}
+
+
+#input-box {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 100px;
+  text-align: end;
+  margin: auto;
+  width: 39.51%;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.buttons {
+  width: 10%;
+  background-color: whitesmoke;
+  border: none;
+  font-size: 40px;
+  padding: 40px 40px;
+  align-self: auto;
+}
+
+.buttons:hover {
+  background-color: orange;
+  color:black;
+}
