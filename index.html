@@ -27,7 +27,11 @@
 
 
     <button class="orange-button" onclick="
-    alert('This button is currently not in use') ">⌫</button> <br>
+   displayValue = displayValue.slice(0, -1);
+    document.querySelector('#input-box').value = displayValue; "
+    >⌫</button> <br>
+
+
     <button class="buttons" onclick="
     displayValue+=7;
     document.querySelector('#input-box').value = displayValue; ">7</button>
